@@ -1,0 +1,102 @@
+$blu1: #4b73b5;
+$rad: #f11;
+$white: #ffffff;
+$blu2: #497ccf;
+
+header {
+    background-color: $blu1;
+}
+
+.header-container {
+    display: flex;
+    margin: 0 auto;
+    height: 76px;
+    width: 1100px;
+
+    font-family: 'Roboto-Bold';
+    
+    //background-color: blue;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 180px;
+    position: relative;
+    left: 23px;
+}
+
+.contacts {
+    width: 180px;
+    position: relative;
+    right: 12px;
+}
+
+.contacts__phone {
+    color: $white;
+    font-size: 21px;
+}
+
+.contacts__works {
+    color: $white;
+    font-size: 14px;
+    position: relative;
+    left: 72px;
+    top: 3px;
+    //text-align: right;
+    text-decoration: underline;
+    //margin-top: 3px;
+    cursor: pointer;
+    height: 20px;
+    width: 105px;
+}
+
+.contacts__work-time {
+    position: absolute;
+    width: 165px;
+    height: 81px;
+    top: 27px;
+    right: 2px;
+    background-image: url('/image/Rounded\ Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    //text-align: center;
+    padding-top: 25px;
+    display: none;
+    z-index: 10;
+}
+
+.contacts__works:hover {
+    .contacts__work-time {
+        display: block;
+        z-index: 5;
+    }
+}
+
+.contacts__work-time::before {
+    content: "";
+    display: block;
+    height: 110px;
+    left: 0;
+    right: 0;
+    top: -30px;
+    position: absolute;
+}
+
+.work_time__days {
+    position: relative;
+    left: 22px;
+    color: $blu2;
+    width: 165px;
+    height: 23px;
+}
+
+.work_time__lanch {
+    //font-family: 'Roboto-Med';
+    font-family: 'Roboto-Light';
+    font-size: 14px;
+    color: black;
+    width: 165px;
+    position: relative;
+    left: 22px;
+}
+

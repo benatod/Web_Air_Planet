@@ -1,0 +1,94 @@
+$blu1: #4b73b5;
+
+.team__title {
+    font-family: "Roboto-Bold";
+    font-size: 49px;
+    margin-top: 16px;
+    letter-spacing: -1px;
+}
+
+.team__pers {
+    display: flex;
+    flex-flow: wrap;
+    width: 883px;
+    justify-content: space-between;
+}
+
+.team__block {
+    width: 285px;
+    height: 417px;
+}
+
+.team__block-foto {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.foto__shad {
+    display: none;
+}
+
+.team__block-foto:hover {
+    .foto__norm {
+        display: none;
+    }
+    .foto__shad {
+        display: block;
+    }
+}
+
+.team__block-desc {
+    margin-top: 18px;
+}
+
+.block-desc__name {
+    font-family: 'Roboto-Bold';
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.block-desc__prof {
+    font-family: 'Roboto-Bold';
+    color: $blu1;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.block-desc__text {
+    font-family: "Roboto-Light";
+    text-align: center;
+    font-size: 15px;
+    margin-top: 8px;
+    line-height: 1.4;
+    width: 275px;
+    margin-left: 13px;
+}
+
+.logos__blocks {
+    display: flex;
+    width: 790px;
+    height: 360px;
+    flex-flow: wrap;
+    align-content: space-evenly;
+}
+
+.logos__blocks-elem {
+    width: 260px;
+    text-align: center;
+}
+
+.logos__norm {
+    display: none;
+}
+
+.logos__blocks-elem:hover {
+    .logos__shad {
+        display: none;
+    }
+    .logos__norm {
+        display: inline;
+    }
+}

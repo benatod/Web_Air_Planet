@@ -1,0 +1,195 @@
+$blu1: #4b73b5;
+$black: black;
+
+
+.main-container {
+    display: flex;
+    margin: 0 auto;
+    width: 1100px;
+    justify-content: space-between;
+}
+
+.main-content {
+    width: 900px;
+    height: 100%;
+}
+
+.main-content__baner {
+    position: relative;
+    top: 13px;
+    height: 287px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    //padding-left: 16px;
+    //letter-spacing: 2px;
+}
+
+.broad {
+    display: flex;
+}
+
+
+.icon-select {
+    display: none;
+}
+
+.tarifs {
+    width: 748px;
+    height: 530px;
+    margin-bottom: 58px;
+}
+
+.stand__logo {
+   background-image: url('/image/icons/Ellipse 2.png');
+    background-repeat: no-repeat;
+    position: relative;
+    height: 70px;
+    width: 70px;
+    display: block;
+    text-align: center;
+    padding-top: 18px;
+   
+}
+
+.stand__title {
+    margin-top: 12px;
+}
+
+.tarifs__title {
+    font-family: 'Roboto-Bold';
+    font-size: 49px;
+    letter-spacing: -1px;
+}
+
+.tarifs__example {
+    display: flex;
+    justify-content: space-between;
+    width: 731px;
+    height: 456px;
+    margin-left: 32px;
+}
+
+.tarifs__stand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 190px;
+   // height: 456px;
+    margin-top: 36px;
+   // margin-left: 40px;
+}
+
+h5 {
+    font-family: "Roboto-Light";
+    font-size: 10.78px;
+    letter-spacing: 0.2em;
+}
+
+.stand__name {
+    text-align: center;
+    line-height: 1.7;
+}
+
+.stand__list {
+    list-style-image: none;
+    list-style-type: disc;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.stand__items {
+    line-height: 2;
+}
+
+.stand__name, .stand__list, .content__text {
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+}
+
+.stand__price {
+    font-size: 53.89px;
+    font-family: "Roboto-Reg";
+}
+
+.block__container {
+    display: flex;
+    width: 900px;
+    height: 180px;
+    margin-bottom: 40px;
+}
+
+.news {
+    font-family: "Roboto-Reg";
+}
+
+.news__title {
+    font-family: "Roboto-Bold";
+    font-size: 49px;
+    margin-bottom: 70px;
+}
+
+.news__image {
+    margin-right: 20px;
+}
+
+.content__title {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.content__text {
+    line-height: 1.7;
+    width: 651px;
+}
+
+.paginator {
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.paginator__name {
+    font-family: 'Roboto-Light';
+}
+
+.numbers a {
+    text-decoration: none;
+}
+
+.numbers__list {
+    display: flex;
+    margin: 0;
+    padding-left: 10px;
+    width: 230px;
+    justify-content: space-around;
+    font-family: "Roboto-Bold";
+}
+
+.numbers__item {
+    width: 12px;
+}
+
+.number__link {
+    color: $black;
+}
+
+.active {
+    background-color: $blu1;
+    color: white;
+}
+
+.paginator a:hover:not(.active) {
+    color: $blu1;
+}
+
+
+

@@ -1,0 +1,39 @@
+$blu1: #4b73b5;
+$rad: #f11;
+
+
+//@import '/css/variables.scss';
+@import "/css/normalize.css";
+@import "/css/header.css";
+@import "/css/main-container.css";
+@import "/css/menu-bar.css";
+@import "/css/Footer.css";
+@import "/css/test-page.css";
+@import "/css/feeds.css";
+@import "/css/comment.css";
+@import "/css/team.css";
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(/fonts/Roboto-Bold_1.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(/fonts/Roboto-Light_1.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-LightIt';
+    src: url(/fonts/Roboto-LightItalic_1.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Reg";
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Med';
+    src: url(/fonts/Roboto-Medium.ttf);
+}

@@ -1,0 +1,82 @@
+header {
+  background-color: #4b73b5; }
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  height: 76px;
+  width: 1100px;
+  font-family: 'Roboto-Bold';
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.logo {
+  width: 180px;
+  position: relative;
+  left: 23px; }
+
+.contacts {
+  width: 180px;
+  position: relative;
+  right: 12px; }
+
+.contacts__phone {
+  color: #ffffff;
+  font-size: 21px; }
+
+.contacts__works {
+  color: #ffffff;
+  font-size: 14px;
+  position: relative;
+  left: 72px;
+  top: 3px;
+  text-decoration: underline;
+  cursor: pointer;
+  height: 20px;
+  width: 105px; }
+
+.contacts__work-time {
+  position: absolute;
+  width: 165px;
+  height: 81px;
+  top: 27px;
+  right: 2px;
+  background-image: url("/image/Rounded Rectangle 2.png");
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  display: none;
+  z-index: 10; }
+
+.contacts__works:hover .contacts__work-time {
+  display: block;
+  z-index: 5; }
+
+.contacts__work-time::before {
+  content: "";
+  display: block;
+  height: 110px;
+  left: 0;
+  right: 0;
+  top: -30px;
+  position: absolute; }
+
+.work_time__days {
+  position: relative;
+  left: 22px;
+  color: #497ccf;
+  width: 165px;
+  height: 23px; }
+
+.work_time__lanch {
+  font-family: 'Roboto-Light';
+  font-size: 14px;
+  color: black;
+  width: 165px;
+  position: relative;
+  left: 22px; }

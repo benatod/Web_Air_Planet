@@ -1,0 +1,33 @@
+$blu1: #4b73b5;
+
+footer {
+    background-color: $blu1;
+}
+
+.footer-container {
+    display: flex;
+    width: 1100px;
+    height: 75px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-text {
+    color: white;
+    width: 237px;
+}
+
+.network__block {
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+}
+
+.network__elem {
+    background-image: url('/image/icons/Ellipse 1.png');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}

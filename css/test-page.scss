@@ -1,0 +1,164 @@
+
+
+.block-one {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition-property: background-color, width;
+    transition-duration: 4s;
+    border: black 4px double;
+    top: 15px;
+    left: 15px;
+    //transform: rotate(-90deg);
+}
+
+.block-one:hover {
+    background-color: orange;
+    width: 450px;
+}
+
+.block-two {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    //transition-property: all;
+    //transition-duration: 4s;
+    border: black 6px solid;
+    top: 250px;
+    left: 20px;
+    animation-name: Animat;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/*.block-two:hover {
+     transform: rotate(60deg);
+     background-color: fuchsia;
+     color: yellow;
+}*/
+
+.block-one__block-three {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: mediumspringgreen;
+    top: 37%;
+    left: 37%;
+    transform: rotate(90deg);
+}
+
+
+
+/*@keyframes Animat {
+    from {
+        background-color: darkgoldenrod;
+    }
+
+50%{
+    transform: rotate(180deg);
+    background-color: yellow;
+    color: sienna;
+    left: 600px;
+    top: 500px;
+}
+    to {
+        transform: rotate(360deg);
+     background-color: fuchsia;
+     color: yellow;
+     left: 1200px;
+    }
+}*/
+
+.elem-one {
+    position: relative;
+    top: 280px;
+    border: black 2px dotted;
+}
+
+.elem-two {
+    position: absolute;
+    left: 200px;
+    display: none;
+}
+
+.line-one {
+    height: 30px;
+    width: 70px;
+    border: orchid 2px solid;
+}
+
+.line-two {
+    display: block;
+    height: 30px;
+    width: 70px;
+    border: olive 2px solid;
+}
+
+.line-two:hover {
+    .elem-two {
+        display: block;
+        color: orangered;
+    }
+    color: blue;
+}
+
+.menu-chek__items {
+    display: flex;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    //vertical-align: middle;
+}
+
+.m-ch__fuck {
+    height: 25px;
+    padding-left: 10px;
+}
+
+.radio-input {
+    margin-left: 100px;
+}
+
+.radio-input input {
+    display: none;
+}
+
+.radio-input label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    //background: gray;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 20px;
+}
+
+p {
+    margin-left: 24px;
+}
+
+.radio-input input:checked + label {
+    color: green;
+    //border-color: blue;
+    border-width: 1px;
+}
+
+ .radio-input input:checked + label::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    left: 6px;
+    top: 6px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 20px;
+}
